@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Create a container for the columns */
+        .blog-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Style each column */
+        .blog-column {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+
+        /* Style the article list within each column */
+        .article-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        /* Style the article items */
+        .article-item {
+            margin-bottom: 10px;
+        }
+
+        /* Add some spacing and styles to titles */
+        .column-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
